@@ -6,15 +6,16 @@
 int main (){
     double y=2.3;
     double x=4.5;
-    double xx,yy;
-    double answer=sqrt((x*x)+(y*y));
-    std::cout << "anwers= "<< answer << std::ends; 
-    std::cout << "Now enter X and y for the Vector Summation ";
+    double mgntude;
 
-    std::cin  >> xx ;
-    std::cin  >> yy ;
-    double vector_sum=sqrt((xx*xx)+(yy*yy));
-    std::cout << "anwers= "<< new_answer << std::ends;
+    mgntude=sqrt((x*x)+(y*y));
+    std::cout << "Resulttant for x,y =" << x << "," << y <<std::endl;
+    std::cout << "Answer= "<< mgntude << std::ends; 
+
+    //std::cin  >> xx ;
+    //std::cin  >> yy ;
+    //double vector_sum=sqrt((xx*xx)+(yy*yy));
+    //std::cout << "anwers= "<< new_answer << std::ends;
 return 0;
-
+//std::cout << "Now enter X and y for the Vector Summation ";
 }
